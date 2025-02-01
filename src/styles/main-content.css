@@ -1,6 +1,6 @@
 /* HEADER */
 
-.main-container{
+.main-container {
   max-width: 80vw;
   height: 100vh;
   margin-left: 320px;
@@ -36,7 +36,7 @@
   width: 32px;
   height: 32px;
   background: var(--bg-icon);
-  background-color:var(--bg-arrow-color);
+  background-color: var(--bg-arrow-color);
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -70,7 +70,7 @@
   padding: 0px 100px 0 12px;
   color: #fff;
   text-overflow: ellipsis;
-  overflow:hidden;
+  overflow: hidden;
   white-space: nowrap;
   outline: none;
 }
@@ -92,8 +92,8 @@
   border-radius: 40px;
 }
 
- /* PLAYLIST */
- .playlist-container {
+/* PLAYLIST */
+.playlist-container {
   height: 68vh;
   padding-top: 16px;
   margin: 10px;
@@ -150,7 +150,7 @@
 }
 
 .cards {
-  position: relative; 
+  position: relative;
   width: 220px;
   height: 200px;
   overflow: hidden;
@@ -235,7 +235,7 @@
 }
 
 .grid-container {
-  grid-gap:24px;
+  grid-gap: 24px;
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   min-width: 767px;
